@@ -38,27 +38,27 @@ img {
 @media (max-width: 1200px) {
   .container {
     max-width: 1200px;
-    width: 96%;
+    width: 92%;
   }
 }
 
 @media (max-width: 992px) {
   .container {
     max-width: 900px;
-    width: 96%;
+    width: 92%;
   }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 600px;
-    width: 96%;
+    width: 92%;
   }
 }
 
 @media (max-width: 575px) {
   .container {
-    width: 96%;
+    width: 92%;
   }
 }
 
@@ -85,7 +85,7 @@ img {
 }
 
 .offer__button {
-  padding: 27px 102px;
+  padding: 27px 22px;
   background-color: #ffd200;
   border-radius: 10px;
   font-size: 15px;
@@ -102,7 +102,7 @@ img {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 70px 0;
 }
 
 .section-title {
@@ -422,7 +422,7 @@ img {
 .offer__title {
   max-width: 360px;
   line-height: 35px;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .offer__subtitle {
@@ -431,7 +431,7 @@ img {
 }
 
 .offer__input {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   width: 240px;
 }
 
@@ -505,6 +505,9 @@ img {
 }
 
 @media (max-width: 920px) {
+  .offer__callback-info {
+    width: 230px;
+  }
   .offer__callback-self {
     display: block;
   }
@@ -535,11 +538,11 @@ img {
             flex-direction: column;
   }
   .offer__callback-info {
-    width: 250px;
+    width: 230px;
     margin-bottom: 18px;
   }
   .offer__callback-self {
-    width: 250px;
+    width: 230px;
   }
   .offer__button {
     padding: 19px 62px;
